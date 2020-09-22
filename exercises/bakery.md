@@ -45,8 +45,8 @@ Create the necessary methods to connect these classes.  **You should do all the 
   - should return an array of all dessert objects that use this ingredient
 - #bakeries
   - should return the bakery objects for the bakeries that use that ingredient
-- .all
-  - should return an array of all ingredients
+<!-- - .all
+  - should return an array of all ingredients -->
 - .find_all_by_name(ingredient)
   - should take a string argument and return an array of all ingredients that
     include that string in their name
