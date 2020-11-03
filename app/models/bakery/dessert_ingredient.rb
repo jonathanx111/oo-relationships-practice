@@ -1,7 +1,6 @@
 class DessertIngredient
+    attr_accessor :dessert, :ingredient
     @@all = []
-    attr_reader :dessert, :ingredient
-   
 
     def initialize(dessert, ingredient)
         @dessert = dessert
@@ -9,7 +8,7 @@ class DessertIngredient
         @@all << self
     end
 
-    def self.all
+    def self.all 
         @@all
     end
-end 
+end
